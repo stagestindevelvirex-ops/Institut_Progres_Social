@@ -43,124 +43,126 @@
     </nav>
   </header>
 
-  <!--Hero Section -->
-  <section class="relative h-screen flex items-center justify-center text-center overflow-hidden mt-24">
-    <img src="src/assets/images/IMG_IPS_07.jpg" alt="Enfants souriants"
-      class="absolute inset-0 w-full h-full object-cover">
+  <main class="mt-24">
 
-    <div class="absolute inset-0 bg-gradient-to-t from-black/60  to-black/59"></div>
-    <div class="relative z-10 text-white max-w-4xl px-4">
-      <h2 class="text-3xl md:text-4xl font-lora font-semibold mb-4 animate-fade-in-up" style="animation-delay: 0.2s;">
-        Nos projets
-      </h2>
-      <h3 class="text-lg md:text-xl font-lora animate-fade-in-up pb-3" style="animation-delay: 0.4s;">
-        Des initiatives concrètes pour transformer nos ambitions en actions.
-      </h3>
-      <h5 class="text-x md:text-xl font-lora animate-fade-in-up" style="animation-delay: 0.4s;">
-        Accueil / <span style="color: #FFD700;">Nos projets</span>
-      </h5>
-    </div>
-  </section>
+    <!--Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+      <img src="src/assets/images/IMG_IPS_07.jpg" alt="Enfants souriants"
+        class="absolute inset-0 w-full h-full object-cover">
 
-  <!-- Section Projets -->
-  <section class="max-w-7xl mx-auto px-4 py-10">
-    <!-- Titre -->
-    <p class="text-center text-gray-700 mb-6">
-      Chez IPS, chaque projet est pensé pour répondre à un besoin précis et créer un impact durable.
-    </p>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60  to-black/59"></div>
+      <div class="relative z-10 text-white max-w-4xl px-4">
+        <h2 class="text-3xl md:text-4xl font-lora font-semibold mb-4 animate-fade-in-up" style="animation-delay: 0.2s;">
+          Nos projets
+        </h2>
+        <h3 class="text-lg md:text-xl font-lora animate-fade-in-up pb-3" style="animation-delay: 0.4s;">
+          Des initiatives concrètes pour transformer nos ambitions en actions.
+        </h3>
+        <h5 class="text-x md:text-xl font-lora animate-fade-in-up" style="animation-delay: 0.4s;">
+          Accueil / <span style="color: #FFD700;">Nos projets</span>
+        </h5>
+      </div>
+    </section>
 
-    <!-- Filtres -->
-    <div class="flex flex-wrap justify-center gap-3 mb-10">
-      <button class="filter-btn bg-green-600 text-white px-4 py-2 rounded text-sm active"
-        data-filter="all">Tout</button>
-      <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="education">Jeunesse &
-        Éducation</button>
-      <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm"
-        data-filter="environnement">Environnement</button>
-      <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="sante">Santé</button>
-      <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="culture">Culture &
-        Sport</button>
-    </div>
+    <!-- Section Projets -->
+    <section class="max-w-7xl mx-auto px-4 py-10">
+      <!-- Titre -->
+      <p class="text-center text-gray-700 mb-6">
+        Chez IPS, chaque projet est pensé pour répondre à un besoin précis et créer un impact durable.
+      </p>
 
-    <!-- Grille de Projets -->
-    <div id="projects" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      <!-- Carte 1 -->
-      <div class="project-card" data-category="education">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet éducation" class="w-full h-48 object-cover">
-        </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Jeunesse & Éducation</p>
-          <h3 class="font-semibold text-gray-900">Programme de soutien scolaire</h3>
-          <a href="projet-en-cour.html" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
-        </div>
+      <!-- Filtres -->
+      <div class="flex flex-wrap justify-center gap-3 mb-10">
+        <button class="filter-btn bg-green-600 text-white px-4 py-2 rounded text-sm active"
+          data-filter="all">Tout</button>
+        <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="education">Jeunesse &
+          Éducation</button>
+        <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm"
+          data-filter="environnement">Environnement</button>
+        <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="sante">Santé</button>
+        <button class="filter-btn bg-gray-100 text-gray-700 px-4 py-2 rounded text-sm" data-filter="culture">Culture &
+          Sport</button>
       </div>
 
-      <!-- Carte 2 -->
-      <div class="project-card" data-category="environnement">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet environnement" class="w-full h-48 object-cover">
+      <!-- Grille de Projets -->
+      <div id="projects" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Carte 1 -->
+        <div class="project-card" data-category="education">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet éducation" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Jeunesse & Éducation</p>
+            <h3 class="font-semibold text-gray-900">Programme de soutien scolaire</h3>
+            <a href="projet-en-cour.html" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
         </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Environnement</p>
-          <h3 class="font-semibold text-gray-900">Programme de reboisement</h3>
-          <a href="projet-termine.html" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+
+        <!-- Carte 2 -->
+        <div class="project-card" data-category="environnement">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet environnement" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Environnement</p>
+            <h3 class="font-semibold text-gray-900">Programme de reboisement</h3>
+            <a href="projet-termine.html" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
+        </div>
+
+        <!-- Carte 3 -->
+        <div class="project-card" data-category="sante">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet santé" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Santé</p>
+            <h3 class="font-semibold text-gray-900">Campagne de vaccination</h3>
+            <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
+        </div>
+
+        <!-- Carte 4 -->
+        <div class="project-card" data-category="culture">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet culture" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Culture & Sport</p>
+            <h3 class="font-semibold text-gray-900">Tournoi interscolaire</h3>
+            <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
+        </div>
+
+        <!-- Carte 5 -->
+        <div class="project-card" data-category="education">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet éducation" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Jeunesse & Éducation</p>
+            <h3 class="font-semibold text-gray-900">Formation numérique pour jeunes</h3>
+            <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
+        </div>
+
+        <!-- Carte 6 -->
+        <div class="project-card" data-category="environnement">
+          <div class="overflow-hidden rounded-lg shadow-sm">
+            <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet environnement" class="w-full h-48 object-cover">
+          </div>
+          <div class="mt-3">
+            <p class="text-sm text-green-700 font-medium">Environnement</p>
+            <h3 class="font-semibold text-gray-900">Nettoyage des plages</h3>
+            <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Carte 3 -->
-      <div class="project-card" data-category="sante">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet santé" class="w-full h-48 object-cover">
-        </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Santé</p>
-          <h3 class="font-semibold text-gray-900">Campagne de vaccination</h3>
-          <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
-        </div>
-      </div>
-
-      <!-- Carte 4 -->
-      <div class="project-card" data-category="culture">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet culture" class="w-full h-48 object-cover">
-        </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Culture & Sport</p>
-          <h3 class="font-semibold text-gray-900">Tournoi interscolaire</h3>
-          <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
-        </div>
-      </div>
-
-      <!-- Carte 5 -->
-      <div class="project-card" data-category="education">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet éducation" class="w-full h-48 object-cover">
-        </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Jeunesse & Éducation</p>
-          <h3 class="font-semibold text-gray-900">Formation numérique pour jeunes</h3>
-          <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
-        </div>
-      </div>
-
-      <!-- Carte 6 -->
-      <div class="project-card" data-category="environnement">
-        <div class="overflow-hidden rounded-lg shadow-sm">
-          <img src="src/assets/images/IMG_IPS_25.jpeg" alt="Projet environnement" class="w-full h-48 object-cover">
-        </div>
-        <div class="mt-3">
-          <p class="text-sm text-green-700 font-medium">Environnement</p>
-          <h3 class="font-semibold text-gray-900">Nettoyage des plages</h3>
-          <a href="#" class="text-sm italic text-gray-600 hover:text-green-700">Lire</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  </main>
 
   <!--Footer-->
-
   <footer class="bg-lime-100  text-black">
     <div class="max-w-7xl bg-gray-80 mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
@@ -296,7 +298,6 @@
       &copy; 2025 Institut pour le Progrès Social - Tous droits réservés
     </div>
   </footer>
-
 
   <!-- Script de Filtrage -->
   <script>
